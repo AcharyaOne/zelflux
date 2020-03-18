@@ -7,7 +7,7 @@ const config = new fullnode.Config();
 const isTestnet = userconfig.initial.testnet;
 const rpcuser = config.rpcuser() || 'rpcuser';
 const rpcpassword = config.rpcpassword() || 'rpcpassowrd';
-const rpcport = config.rpcport() || (isTestnet === true ? 26124 : 16124);
+const rpcport = config.rpcport() || (isTestnet === true ? 26224 : 16224);
 
 const client = new zelcashrpc.Client({
   port: rpcport,
