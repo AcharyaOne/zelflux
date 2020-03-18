@@ -6,7 +6,7 @@ module.exports = {
   },
   database: {
     url: '127.0.0.1',
-    port: 27017,
+    port: 27018,
     local: {
       database: 'zelfluxlocal',
       collections: {
